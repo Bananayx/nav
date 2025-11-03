@@ -1,0 +1,31 @@
+{
+  "name": "hexo-theme-webstack",
+  "version": "3.0.5",
+  "description": "A hexo theme based on webstack.",
+  "keywords": [
+    "hexo",
+    "theme",
+    "webstack"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "postinstall": "node ./move_config.js"
+  },
+  "author": "HCLonely <h1606051253@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HCLonely/hexo-theme-webstack/issues",
+    "email": "h1606051253@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HCLonely/hexo-theme-webstack.git"
+  },
+  "dependencies": {
+    "hexo-renderer-pug": "^3.0.0",
+    "pug": "^3.0.3"
+  }
+}
