@@ -30,7 +30,13 @@ expandAll: false
 menu:
   - name: Banana Y.X.的网站
     icon: far fa-star
-    config: testPage
+    config: mysite
+
+mysite:
+  - name: 'Banana Y.X.的小站'
+    url: 'https://bananayx.github.io/'
+    img: 'https://bananayx.github.io/files/img/Banana头像.png'
+    description: '面朝大海，春暖花开。'
 
 since: 2025
 
