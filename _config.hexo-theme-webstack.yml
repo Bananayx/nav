@@ -1,10 +1,10 @@
 favicon: https://bananayx.github.io/files/img/Banana头像.png
-banner: 'https://bananayx.github.io/files/img/Banana Y.X.导航白字.png'
+banner: 'https://bananayx.github.io/files/img/Banana Y.X.导航白字小尺寸.png'
 
 logo:
-  expanded: 'https://bananayx.github.io/files/img/Banana Y.X.导航白字.png'
+  expanded: 'https://bananayx.github.io/files/img/Banana Y.X.导航白字小尺寸.png'
   collapsed: https://bananayx.github.io/files/img/Banana头像.png
-  dark: 'https://bananayx.github.io/files/img/Banana Y.X.导航黑字.png'
+  dark: 'https://bananayx.github.io/files/img/Banana Y.X.导航黑字小尺寸.png'
 
 flag:
   - name: Chinese
@@ -28,64 +28,14 @@ githubCorner: '<a href="https://github.com/Bananayx" class="github-corner" aria-
 
 expandAll: false
 menu:
-  - name: 测试页面
+  - name: Banana Y.X.的网站
     icon: far fa-star
     config: testPage
-  - name: 常用工具
-    icon: far fa-star
-    config: hotTools
-  - name: 其他工具
-    icon: fas fa-tools
-    submenu:
-      - name: 开发工具
-        icon: fas fa-tools
-        config: devTools
-      - name: 我的博客
-        icon: fas fa-blog
-        config: myBlog
-
-testPage:
-  - name: Child Page
-    url: /child
-    img: /images/logos/myblog.png
-    description: 子页面测试
-devTools:
-  - name: Github
-    url: https://github.com/
-    img: /images/logos/github.png
-    description: 面向开源及私有软件项目的托管平台。
-  - name: Github
-    url: https://github.com/
-    img: /images/logos/github.png
-    description: 面向开源及私有软件项目的托管平台。
-
-myBlog:
-  - name: HCLonely Blog
-    url: https://blog.hclonely.com/
-    img: /images/logos/myBlog.png
-    description: 一个懒人的博客。
-
-about:
-  url: /about/
-  icon: far fa-heart
-  name: 关于本站
-
-aboutPage:
-  website:
-    head: 关于本站
-    html: '<blockquote><p>本站是hexo主题<a href="https://github.com/HCLonely/hexo-theme-webstack">hexo-theme-webstack</a>的demo站。</p></blockquote>'
-  webmaster:
-    head: 关于站长
-    name: HCLonely
-    url: https://blog.hclonely.com/
-    img: /images/logos/myblog.png
-    description: 懒人一个
-    html: '<br /><blockquote><p>本站是<a href="https://github.com/HCLonely">HCLonely</a>基于<a href="https://github.com/WebStackPage/WebStackPage.github.io">WebStackPage</a>项目做的一款<a href="https://hexo.io/">Hexo</a>主题。</p></blockquote>'
 
 since: 2025
 
 busuanzi:
-  enable: true
+  enable: false
   position: sidebar # 'footer','sidebar'
   pv: 本站总访问量$pv
   uv: 本站总访客数$uv
@@ -102,16 +52,16 @@ js:
   header: /js/header.js
   footer: /js/footer.js
   jquery: /js/jquery-1.11.1.min.js
-  bootstrap: /js/bootstrap.min.js
-  TweenMax: /js/TweenMax.min.js
-  resizeable: /js/resizeable.min.js
-  joinable: /js/joinable.js
-  xenonApi: /js/xenon-api.min.js
-  xenonToggles: /js/xenon-toggles.min.js
-  xenonCustom: /js/xenon-custom.min.js
-  lozad: /js/lozad.min.js
-  html5shiv: /js/html5shiv.min.js
-  respond: /js/respond.min.js
+  bootstrap: /nav/js/bootstrap.min.js
+  TweenMax: /nav/js/TweenMax.min.js
+  resizeable: /nav/js/resizeable.min.js
+  joinable: /nav/js/joinable.js
+  xenonApi: /nav/js/xenon-api.min.js
+  xenonToggles: /nav/js/xenon-toggles.min.js
+  xenonCustom: /nav/js/xenon-custom.min.js
+  lozad: /nav/js/lozad.min.js
+  html5shiv: /nav/js/html5shiv.min.js
+  respond: /nav/js/respond.min.js
   busuanzi: https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js
 
 css:
