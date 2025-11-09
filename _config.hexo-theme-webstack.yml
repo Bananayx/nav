@@ -28,15 +28,101 @@ githubCorner: '<a href="https://github.com/Bananayx" class="github-corner" aria-
 
 expandAll: false
 menu:
-  - name: Banana Y.X.的网站
-    icon: far fa-star
+  - name: 有关Banana Y.X.
     config: mysite
+  - name: Banana Y.X.的资源分享
+    config: myshare
+  - name: AI
+    config: ai
+    submenu:
 
 mysite:
   - name: 'Banana Y.X.的小站'
     url: 'https://bananayx.github.io/'
     img: 'https://bananayx.github.io/files/img/Banana头像.png'
+    description: '小站，大世界。'
+  - name: 'Banana Y.X.的博客'
+    url: 'https://bananayx.github.io/blog/'
+    img: 'https://bananayx.github.io/files/img/Banana头像.png'
     description: '面朝大海，春暖花开。'
+  - name: 'Banana Y.X.网盘'
+    url: 'http://sj.frp.one:29552/'
+    img: 'https://bananayx.github.io/files/img/Banana头像.png'
+    description: '吹牛逼呢！这叫私人网盘，你会搭吗？你只能看着我，装逼！呵呵哈哈，加纳！'
+  - name: 'Banana Y.X.的抖音'
+    url: 'https://www.douyin.com/user/MS4wLjABAAAA0y-EB2FwDesDJnUjwTTJJU7uuvcOaIHr07y0bAFh_Wk'
+    img: 'https://www.douyin.com/favicon.ico'
+    description: '抖音，记录生活，分享快乐。'
+  - name: 'Banana Y.X.的画廊(国内无法访问)'
+    url: 'https://www.flickr.com/photos/bananayx/'
+    img: 'https://bananayx.github.io/files/img/flickerfavicon.ico'
+    description: 'Flicker，管理相片的新方式'
+
+myshare:
+  - name: '系统镜像分享'
+    url: 'https://cloud.aoe.top/s/g6rsv'
+    img: 'https://mod.3dmgame.com/static/upload/mod/202211/MOD6386ccf455c06.png@webp'
+    description: '感谢小莫云盘提供的文件存储及分享服务！'
+  - name: '电影资源分享'
+    url: 'https://cloud.aoe.top/s/KB4fO'
+    img: 'https://mod.3dmgame.com/static/upload/mod/202211/MOD6386ccf455c06.png@webp'
+    description: '感谢小莫云盘提供的文件存储及分享服务！'
+  - name: '绿色软件分享'
+    url: 'https://pan.huang1111.cn/s/XqxnGTl'
+    img: 'https://a.h1static.cn/pan/Logohuang1111.ico'
+    description: '感谢huang1111网盘提供的文件存储及分享服务！'
+  - name: '音乐资源分享'
+    url: 'https://008686.xyz/s/EVGBtQ'
+    img: 'https://008686.xyz/static/img/favicon.ico'
+    description: '感谢扒拉云盘提供的文件存储及分享服务！'
+  - name: '我的录屏备份'
+    url: 'https://008686.xyz/s/6bkdfx'
+    img: 'https://008686.xyz/static/img/favicon.ico'
+    description: '感谢扒拉云盘提供的文件存储及分享服务！'
+  - name: '我的剪辑备份'
+    url: 'https://008686.xyz/s/1RWxSN'
+    img: 'https://008686.xyz/static/img/favicon.ico'
+    description: '感谢扒拉云盘提供的文件存储及分享服务！'
+  - name: '我某次拍的风景1'
+    url: 'https://photo.baidu.com/photo/wap/albumShare/invite/jFxajRFOWW?from=webcreate'
+    img: 'https://staticsns.cdn.bcebos.com/amis/2023-2/1676342310828/favicon.ico'
+    description: '感谢一刻相册提供的照片存储及分享服务！'
+  - name: '我某次拍的风景2'
+    url: 'https://photo.baidu.com/photo/wap/albumShare/invite/jhsxVrGOJm?from=webcreate'
+    img: 'https://staticsns.cdn.bcebos.com/amis/2023-2/1676342310828/favicon.ico'
+    description: '感谢一刻相册提供的照片存储及分享服务！'
+  - name: '我某次拍的风景3'
+    url: 'https://photo.baidu.com/photo/wap/albumShare/invite/jgePIuYfka?from=webcreate'
+    img: 'https://staticsns.cdn.bcebos.com/amis/2023-2/1676342310828/favicon.ico'
+    description: '感谢一刻相册提供的照片存储及分享服务！'
+  - name: '我某次拍的风景4'
+    url: 'https://photo.baidu.com/photo/wap/albumShare/invite/OnhpQsIjoC?from=webcreate'
+    img: 'https://staticsns.cdn.bcebos.com/amis/2023-2/1676342310828/favicon.ico'
+    description: '感谢一刻相册提供的照片存储及分享服务！'
+  - name: '某四张壁纸'
+    url: 'https://photo.baidu.com/photo/wap/albumShare/invite/UKKIZXndKS?from=webcreate'
+    img: 'https://staticsns.cdn.bcebos.com/amis/2023-2/1676342310828/favicon.ico'
+    description: '感谢一刻相册提供的照片存储及分享服务！'
+  - name: '必应壁纸收藏1'
+    url: 'https://photo.baidu.com/photo/wap/albumShare/invite/MjmfzIJbNa?from=webcreate'
+    img: 'https://staticsns.cdn.bcebos.com/amis/2023-2/1676342310828/favicon.ico'
+    description: '感谢一刻相册提供的照片存储及分享服务！'
+  - name: '必应壁纸收藏2'
+    url: 'https://photo.baidu.com/photo/wap/albumShare/invite/PqsnSPfFeu?from=webcreate'
+    img: 'https://staticsns.cdn.bcebos.com/amis/2023-2/1676342310828/favicon.ico'
+    description: '感谢一刻相册提供的照片存储及分享服务！'
+  - name: 'Windows 11概念壁纸收藏'
+    url: 'https://photo.baidu.com/photo/wap/albumShare/invite/btreUoaYv?from=webcreate'
+    img: 'https://staticsns.cdn.bcebos.com/amis/2023-2/1676342310828/favicon.ico'
+    description: '感谢一刻相册提供的照片存储及分享服务！'
+  - name: 'Windows 11自带壁纸'
+    url: 'https://photo.baidu.com/photo/wap/albumShare/invite/RnfWhLYJMl?from=webcreate'
+    img: 'https://staticsns.cdn.bcebos.com/amis/2023-2/1676342310828/favicon.ico'
+    description: '感谢一刻相册提供的照片存储及分享服务！'
+  - name: 'Windows聚焦壁纸收藏'
+    url: 'https://photo.baidu.com/photo/wap/albumShare/invite/jnrYLNQYQn?from=webcreate'
+    img: 'https://staticsns.cdn.bcebos.com/amis/2023-2/1676342310828/favicon.ico'
+    description: '感谢一刻相册提供的照片存储及分享服务！'
 
 since: 2025
 
