@@ -47,6 +47,54 @@ menu:
         config: ai-audio
       - name: 数据处理
         config: ai-data
+      - name: 开发者
+        config: ai-dev
+  - name: 游戏
+    config: game
+    submenu:
+      - name: 在线游戏
+        config: game-online
+      - name: 游戏工具
+        config: game-tool
+      - name: 游戏资源
+        config: game-res
+      - name: 游戏教程
+
+game-online:
+  - name: '一起玩红白机'
+    url: 'https://www.playfc.cn'
+    img: 'https://www.playfc.cn/favicon.ico'
+    description: '一起玩红白机，一起玩红白机，一起玩红白机！'
+
+ai-dev:
+  - name: 'Zread'
+    url: 'https://zread.ai/'
+    img: 'https://zread.ai/favicon.ico'
+    description: '专为开发者设计的AI源码解读产品'
+
+ai-date:
+  - name: 'ChatExcel'
+    url: 'https://chatexcel.com/'
+    img: 'https://chatexcel.com/favicon.ico'
+    description: 'AI表格处理与数据分析'
+
+ai-audio:
+  - name: 'Reecho睿声'
+    url: 'https://www.reecho.cn/'
+    img: 'https://www.reecho.cn/favicon.ico'
+    description: 'Reecho睿声 - 超拟真语音合成与瞬时克隆平台'
+  - name: '马克配音'
+    url: 'https://ttsmaker.cn/'
+    img: 'https://ttsmaker.cn/favicon.ico'
+    description: '在线免费文字转语音 - TTSMaker官网 | 马克配音'
+  - name: '音子AI'
+    url: 'https://www2.yinziai.com/'
+    img: 'https://www2.yinziai.com/favicon.ico'
+    description: '在线免费人声分离、伴奏分离器'
+  - name: 'LALAL.AI'
+    url: 'https://www.lalal.ai/zh-hans/'
+    img: 'https://www.lalal.ai/favicon.ico'
+    description: '人声去除器和AI智能伴奏分离器'
 
 ai-image:
   - name: 'remove.bg'
