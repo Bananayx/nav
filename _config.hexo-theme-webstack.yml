@@ -83,15 +83,15 @@ game-online:
     description: '在线玩地铁跑酷'
   - name: 'Poki(宝玩)'
     url: 'https://poki.com/zh'
-    img: 'https://poki.com/favicon.ico'
+    img: 'https://a.poki-cdn.com/icons/favicon-194x194.png'
     description: '免费在线小游戏 - 马上玩！'
   - name: 'js13kGames'
     url: 'https://js13kgames.com/'
-    img: 'https://js13kgames.com/assets/images/favicon.png'
+    img: 'https://byxfiles.pages.dev/img/js13kgames_f32.png'
     description: 'HTML5 and JavaScript Game Development Competition in just 13 kilobytes'
   - name: '局部战争Local War'
     url: 'https://localwar.xidayun.com/'
-    img: 'https://localwar.xidayun.com/favicon.ico'
+    img: 'https://byxfiles.pages.dev/img/FluentGlobe24Regular.svg'
     description: '多人FPS射击页游'
   - name: 'Y8.com'
     url: 'https://zh.y8.com/'
@@ -107,7 +107,7 @@ game-online:
     description: '适合各种口味的免费在线游戏。无需下载。'
   - name: 'Oasis AI Minecraft'
     url: 'https://mine-oasis.com/zh'
-    img: 'https://mine-oasis.com/zh/favicon.ico'
+    img: 'https://byxfiles.pages.dev/img/mine-oasis_favicon.ico'
     description: '動態AI生成的Minecraft'
 
 ai-dev:
@@ -116,16 +116,16 @@ ai-dev:
     img: 'https://zread.ai/favicon.ico'
     description: '专为开发者设计的AI源码解读产品'
 
-ai-date:
+ai-data:
   - name: 'ChatExcel'
     url: 'https://chatexcel.com/'
-    img: 'https://chatexcel.com/favicon.ico'
+    img: 'https://chatexcel.com/logo.svg'
     description: 'AI表格处理与数据分析'
 
 ai-audio:
   - name: 'Reecho睿声'
     url: 'https://www.reecho.cn/'
-    img: 'https://www.reecho.cn/favicon.ico'
+    img: 'https://www.reecho.cn/images/favicon.png'
     description: 'Reecho睿声 - 超拟真语音合成与瞬时克隆平台'
   - name: '马克配音'
     url: 'https://ttsmaker.cn/'
