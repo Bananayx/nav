@@ -35,30 +35,30 @@ menu:
   - name: AI工具
     config: ai
     submenu:
-      - name: 全能
+      - name: AI工具-全能
         config: ai-all
-      - name: 对话
+      - name: AI工具-对话
         config: ai-chat
-      - name: 文章生成
+      - name: AI工具-文章生成
         config: ai-text
-      - name: 图像处理
+      - name: AI工具-图像处理
         config: ai-image
-      - name: 音频处理
+      - name: AI工具-音频处理
         config: ai-audio
-      - name: 数据处理
+      - name: AI工具-数据处理
         config: ai-data
-      - name: 开发者
+      - name: AI工具-开发者
         config: ai-dev
   - name: 游戏
     config: game
     submenu:
-      - name: 在线游戏
+      - name: 游戏-在线游戏
         config: game-online
-      - name: 游戏工具
+      - name: 游戏-游戏工具
         config: game-tool
-      - name: 游戏资源
+      - name: 游戏-游戏资源
         config: game-res
-      - name: 游戏教程
+      - name: 游戏-游戏教程
 
 game-online:
   - name: '一起玩红白机'
