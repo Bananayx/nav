@@ -18,9 +18,9 @@ footer.main-footer.sticky.footer-type-1
 
     if setting.busuanzi.enable && setting.busuanzi.position === 'footer'
       p
-        span#busuanzi_site_pv!= setting.busuanzi.pv.replace(/\$pv/i,'<span id="busuanzi_site_pv">今日总访问量：</span>')
+        span#busuanzi_container_site_pv!= setting.busuanzi.pv.replace(/\$pv/i,'<span id="busuanzi_site_pv">今日总访问量：</span>')
         |  |
-        span#busuanzi_site_uv!= setting.busuanzi.uv.replace(/\$uv/i,'<span id="busuanzi_site_uv">今日总访客数：</span>')
+        span#busuanzi_container_site_uv!= setting.busuanzi.uv.replace(/\$uv/i,'<span id="busuanzi_site_uv">今日总访客数：</span>')
 
     .go-up
       a(href="#", rel="go-top")
