@@ -126,11 +126,11 @@ ai-audio:
   - name: 'Reecho睿声'
     url: 'https://www.reecho.cn/'
     img: 'https://www.reecho.cn/images/favicon.png'
-    description: 'Reecho睿声 - 超拟真语音合成与瞬时克隆平台'
+    description: '超拟真语音合成与瞬时克隆平台'
   - name: '马克配音'
     url: 'https://ttsmaker.cn/'
     img: 'https://ttsmaker.cn/favicon.ico'
-    description: '在线免费文字转语音 - TTSMaker官网 | 马克配音'
+    description: '在线免费文字转语音'
   - name: '音子AI'
     url: 'https://www2.yinziai.com/'
     img: 'https://www2.yinziai.com/favicon.ico'
@@ -144,15 +144,15 @@ ai-image:
   - name: 'remove.bg'
     url: 'https://www.remove.bg/'
     img: 'https://www.remove.bg/favicon.ico'
-    description: '在线抠图软件_图片去除背景 | remove.bg'
+    description: '在线抠图软件_图片去除背景'
   - name: '佐糖'
     url: 'https://picwish.cn/'
     img: 'https://qncdn.aoscdn.com/astro/picwish/_astro/favicon@30w.61721eae.png'
-    description: '佐糖 - 在线图片处理工具_在线抠图_证件照换底色_去水印_照片修复'
+    description: '在线图片处理工具_在线抠图_证件照换底色_去水印_照片修复'
   - name: '吐司'
     url: 'https://tusi.cn/'
     img: 'https://tusi.cn/favicon.ico'
-    description: '可在线生图的 AI 模型分享社区，还是免费的！ | 吐司 tusi.cn'
+    description: '可在线生图的 AI 模型分享社区，还是免费的！'
   - name: 'Magic Eraser'
     url: 'https://magicstudio.com/zh/magiceraser/'
     img: 'https://magicstudio.com/favicon.ico'
@@ -178,11 +178,11 @@ ai-all:
   - name: '豆包'
     url: 'https://www.doubao.com/'
     img: 'https://lf-flow-web-cdn.doubao.com/obj/flow-doubao/doubao/web/logo-icon.png'
-    description: '豆包 字节跳动旗下AI智能助手'
+    description: '字节跳动旗下AI智能助手'
   - name: '墨墨AI'
     url: 'https://ai.codinghou.cn/'
     img: 'https://ai.codinghou.cn/favicon.ico'
-    description: '墨墨AI 一站式体验/学习/使用AI'
+    description: '一站式体验/学习/使用AI'
   - name: 'AI Tools'
     url: 'https://abc.ufun.net/'
     img: 'https://abc.ufun.net/favicon.ico'
@@ -293,7 +293,7 @@ mysite:
 since: 2025
 
 busuanzi:
-  enable: false
+  enable: true
   position: sidebar # 'footer','sidebar'
   pv: 本站总访问量$pv
   uv: 本站总访客数$uv
