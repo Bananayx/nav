@@ -278,7 +278,7 @@ mysite:
     img: 'https://bananayx.github.io/files/img/Banana头像.png'
     description: '面朝大海，春暖花开。'
   - name: 'Banana Y.X.网盘'
-    url: 'htto://fs.frp.one:46953/'
+    url: 'http://fs.frp.one:46953/'
     img: 'https://bananayx.github.io/files/img/Banana头像.png'
     description: '吹牛逼呢！这叫私人网盘，你会搭吗？你只能看着我，装逼！呵呵哈哈，加纳！'
   - name: 'Banana Y.X.网盘(备用网址)'
