@@ -1,10 +1,10 @@
-favicon: https://bananayx.github.io/files/img/Banana头像.png
-banner: 'https://bananayx.github.io/files/img/Banana Y.X.导航白字小尺寸.png'
+favicon: https://files.bananayx.qzz.io/img/Banana头像.png
+banner: 'https://files.bananayx.qzz.io/img/Banana Y.X.导航白字小尺寸.png'
 
 logo:
-  expanded: 'https://bananayx.github.io/files/img/Banana Y.X.导航白字小尺寸.png'
-  collapsed: https://bananayx.github.io/files/img/Banana头像.png
-  dark: 'https://bananayx.github.io/files/img/Banana Y.X.导航黑字小尺寸.png'
+  expanded: 'https://files.bananayx.qzz.io/img/Banana Y.X.导航白字小尺寸.png'
+  collapsed: https://files.bananayx.qzz.io/img/Banana头像.png
+  dark: 'https://files.bananayx.qzz.io/img/Banana Y.X.导航黑字小尺寸.png'
 
 flag:
   - name: Chinese
@@ -87,11 +87,11 @@ game-online:
     description: '免费在线小游戏 - 马上玩！'
   - name: 'js13kGames'
     url: 'https://js13kgames.com/'
-    img: 'https://bananayx.qzz.io/files/img/js13kgames_f32.png'
+    img: 'https://files.bananayx.qzz.io/img/js13kgames_f32.png'
     description: 'HTML5 and JavaScript Game Development Competition in just 13 kilobytes'
   - name: '局部战争Local War'
     url: 'https://localwar.xidayun.com/'
-    img: 'https://bananayx.github.io/files/img/FluentGlobe24Regular.svg'
+    img: 'https://files.bananayx.qzz.io/img/FluentGlobe24Regular.svg'
     description: '多人FPS射击页游'
   - name: 'Y8.com'
     url: 'https://zh.y8.com/'
@@ -107,7 +107,7 @@ game-online:
     description: '适合各种口味的免费在线游戏。无需下载。'
   - name: 'Oasis AI Minecraft'
     url: 'https://mine-oasis.com/zh'
-    img: 'https://bananayx.github.io/files/img/mine-oasis_favicon.ico'
+    img: 'https://files.bananayx.qzz.io/img/mine-oasis_favicon.ico'
     description: '動態AI生成的Minecraft'
 
 ai-dev:
