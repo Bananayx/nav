@@ -1,4 +1,4 @@
-name: 构建页面并部署
+name: 构建页面并部署_cf-pages
 on:
   push:
     branches:
@@ -36,7 +36,7 @@ jobs:
         run: |
           rm -rf node_modules && npm install --force
           hexo clean
-          hexo generate
+          hexo generate --config _config_cf.yml
 
       # 步骤 4：部署到 GitHub Pages
       - name: 4.1. 配置 Git
@@ -53,4 +53,4 @@ jobs:
           git add -A
           git commit -m "由GitHub Actions与Hexo自动部署"
           git remote add origin https://x-access-token:${{ secrets.FOR_NAV_DEPLOY }}@github.com/Bananayx/nav.git
-          git push origin HEAD:gh-pages -f
+          git push origin HEAD:cf-pages -f
