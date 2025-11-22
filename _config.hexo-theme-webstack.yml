@@ -87,7 +87,7 @@ game-online:
     description: '免费在线小游戏 - 马上玩！'
   - name: 'js13kGames'
     url: 'https://js13kgames.com/'
-    img: 'https://bananayx.qzz.io/files/img/js13kgames_f32.png'
+    img: 'https://bananayx.github.io/files/img/js13kgames_f32.png'
     description: 'HTML5 and JavaScript Game Development Competition in just 13 kilobytes'
   - name: '局部战争Local War'
     url: 'https://localwar.xidayun.com/'
