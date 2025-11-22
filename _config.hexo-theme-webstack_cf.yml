@@ -314,16 +314,16 @@ js:
   header: /js/header.js
   footer: /js/footer.js
   jquery: /js/jquery-1.11.1.min.js
-  bootstrap: /nav/js/bootstrap.min.js
-  TweenMax: /nav/js/TweenMax.min.js
-  resizeable: /nav/js/resizeable.min.js
-  joinable: /nav/js/joinable.js
-  xenonApi: /nav/js/xenon-api.min.js
-  xenonToggles: /nav/js/xenon-toggles.min.js
-  xenonCustom: /nav/js/xenon-custom.min.js
-  lozad: /nav/js/lozad.min.js
-  html5shiv: /nav/js/html5shiv.min.js
-  respond: /nav/js/respond.min.js
+  bootstrap: /js/bootstrap.min.js
+  TweenMax: /js/TweenMax.min.js
+  resizeable: /js/resizeable.min.js
+  joinable: /js/joinable.js
+  xenonApi: /js/xenon-api.min.js
+  xenonToggles: /js/xenon-toggles.min.js
+  xenonCustom: /js/xenon-custom.min.js
+  lozad: /js/lozad.min.js
+  html5shiv: /js/html5shiv.min.js
+  respond: /js/respond.min.js
   busuanzi: https://cdn.busuanzi.cc/busuanzi/3.6.9/busuanzi.min.js
 
 css:
