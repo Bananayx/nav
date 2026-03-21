@@ -29,266 +29,421 @@ githubCorner: '<a href="https://github.com/Bananayx" class="github-corner" aria-
 expandAll: false
 menu:
   - name: 有关Banana Y.X.
-    config: mysite
+    config: aboutme
   - name: Banana Y.X.的资源分享
-    config: myshare
+    config: myres
   - name: AI工具
     config: ai
     submenu:
-      - name: AI工具-全能
-        config: ai-all
-      - name: AI工具-对话
+      - name: AI对话
         config: ai-chat
-      - name: AI工具-文章生成
-        config: ai-text
-      - name: AI工具-图像处理
-        config: ai-image
-      - name: AI工具-音频处理
+      - name: AI声音
         config: ai-audio
-      - name: AI工具-数据处理
+      - name: AI图像
+        config: ai-image
+      - name: AI数据
         config: ai-data
-      - name: AI工具-开发者
+      - name: AI开发
         config: ai-dev
+      - name: AI工具集
+        config: ai-tools
   - name: 游戏
     config: game
     submenu:
-      - name: 游戏-在线游戏
+      - name: 在线游戏
         config: game-online
-      - name: 游戏-游戏工具
+      - name: 游戏工具
         config: game-tool
-      - name: 游戏-游戏资源
+      - name: 游戏资源
         config: game-res
-      - name: 游戏-游戏教程
+      - name: 游戏教程
+        config: game-tutorial
+  - name: 下载
+    config: download
+    submenu:
+      - name: 系统镜像
+        config: download-system
+      - name: 软件下载
+        config: download-software
+      - name: 资源下载
+        config: download-resource
+  - name: 网盘
+    config: cloud
+  - name: 工具
+    config: tools
+    submenu:
+      - name: 临时邮件
+        config: tools-email
+      - name: 开发工具
+        config: tools-dev
+      - name: 在线工具
+        config: tools-online
 
-game-online:
-  - name: '一起玩红白机'
-    url: 'https://www.playfc.cn'
-    img: 'https://www.playfc.cn/favicon.ico'
-    description: '“全网唯一可在线比拼分数的红白机网站”'
-  - name: 'Return8090'
-    url: 'https://www.return8090.com/'
-    img: 'https://www.return8090.com/favicon.ico'
-    description: '经典复古游戏机在线玩'
-  - name: 'Play Subway Surfers Online'
-    url: 'https://subway-surfers.me/'
-    img: 'https://subway-surfers.me/favicon.ico'
-    description: '在线玩地铁跑酷'
-  - name: 'Игра Subway Surfers: Сан-Франциско - Играть Онлайн!'
-    url: 'https://igroutka.ru/igry-subway-surfers/36834-subway-surfers-san-francisko.html'
-    img: 'https://igroutka.ru/favicon.ico'
-    description: '在线玩地铁跑酷'
-  - name: 'Игра Subway Surfers: Цюрих - Играть Онлайн!'
-    url: 'https://igroutka.ru/igry-subway-surfers/36819-sabfey-serfers.html'
-    img: 'https://igroutka.ru/favicon.ico'
-    description: '在线玩地铁跑酷'
-  - name: 'Poki(宝玩)'
-    url: 'https://poki.com/zh'
-    img: 'https://a.poki-cdn.com/icons/favicon-194x194.png'
-    description: '免费在线小游戏 - 马上玩！'
-  - name: 'js13kGames'
-    url: 'https://js13kgames.com/'
-    img: 'https://files.bananayx.qzz.io/img/js13kgames_f32.png'
-    description: 'HTML5 and JavaScript Game Development Competition in just 13 kilobytes'
-  - name: '局部战争Local War'
-    url: 'https://localwar.xidayun.com/'
-    img: 'https://files.bananayx.qzz.io/img/FluentGlobe24Regular.svg'
-    description: '多人FPS射击页游'
-  - name: 'Y8.com'
-    url: 'https://zh.y8.com/'
-    img: 'https://zh.y8.com/favicon.ico'
-    description: '适合所有年龄的免费线上游戏 - 今天就来体验！'
-  - name: 'Silvergames.com'
-    url: 'https://www.silvergames.com/zh/'
-    img: 'https://www.silvergames.com/favicon.ico'
-    description: '玩最好的在线游戏'
-  - name: 'Yandex游戏'
-    url: 'https://yandex.com/games/'
-    img: 'https://yandex.com/games/favicon.ico'
-    description: '适合各种口味的免费在线游戏。无需下载。'
-  - name: 'Oasis AI Minecraft'
-    url: 'https://mine-oasis.com/zh'
-    img: 'https://files.bananayx.qzz.io/img/mine-oasis_favicon.ico'
-    description: '動態AI生成的Minecraft'
+aboutme:
+  - name: Banana Y.X.的小站
+    url: https://bananayx.qzz.io/
+    img: https://files.bananayx.qzz.io/img/Banana头像.png
+    description: 小站，大世界。
+  - name: Banana Y.X.网盘
+    url: https://byxpan.qzz.io
+    img: https://files.bananayx.qzz.io/img/Banana头像.png
+    description: 私人云存储，安全稳定高速。
+  - name: 肿哥音乐
+    url: https://musuic.bananayx.qzz.io/
+    img: https://files.bananayx.qzz.io/img/Banana头像.png
+    description: 肿哥音乐
+  - name: Banana Y.X.的博客
+    url: https://blog.bananayx.qzz.io/
+    img: https://files.bananayx.qzz.io/img/Banana头像.png
+    description: 记录开发，分享知识。
 
-ai-dev:
-  - name: 'Zread'
-    url: 'https://zread.ai/'
-    img: 'https://zread.ai/favicon.ico'
-    description: '专为开发者设计的AI源码解读产品'
-
-ai-data:
-  - name: 'ChatExcel'
-    url: 'https://chatexcel.com/'
-    img: 'https://chatexcel.com/logo.svg'
-    description: 'AI表格处理与数据分析'
-
-ai-audio:
-  - name: 'Reecho睿声'
-    url: 'https://www.reecho.cn/'
-    img: 'https://www.reecho.cn/images/favicon.png'
-    description: '超拟真语音合成与瞬时克隆平台'
-  - name: '马克配音'
-    url: 'https://ttsmaker.cn/'
-    img: 'https://ttsmaker.cn/favicon.ico'
-    description: '在线免费文字转语音'
-  - name: '音子AI'
-    url: 'https://www2.yinziai.com/'
-    img: 'https://www2.yinziai.com/favicon.ico'
-    description: '在线免费人声分离、伴奏分离器'
-  - name: 'LALAL.AI'
-    url: 'https://www.lalal.ai/zh-hans/'
-    img: 'https://www.lalal.ai/favicon.ico'
-    description: '人声去除器和AI智能伴奏分离器'
-
-ai-image:
-  - name: 'remove.bg'
-    url: 'https://www.remove.bg/'
-    img: 'https://www.remove.bg/favicon.ico'
-    description: '在线抠图软件_图片去除背景'
-  - name: '佐糖'
-    url: 'https://picwish.cn/'
-    img: 'https://qncdn.aoscdn.com/astro/picwish/_astro/favicon@30w.61721eae.png'
-    description: '在线图片处理工具_在线抠图_证件照换底色_去水印_照片修复'
-  - name: '吐司'
-    url: 'https://tusi.cn/'
-    img: 'https://tusi.cn/favicon.ico'
-    description: '可在线生图的 AI 模型分享社区，还是免费的！'
-  - name: 'Magic Eraser'
-    url: 'https://magicstudio.com/zh/magiceraser/'
-    img: 'https://magicstudio.com/favicon.ico'
-    description: '删除照片中的物体 | Magic Eraser by Magic Studio'
-
-ai-text:
-  - name: 'EffiditAI作文'
-    url: 'https://effidit.qq.com/demo'
-    img: 'https://effidit.qq.com/favicon.png'
-    description: '智能创作助手 Effidit 是由腾讯 AI Lab 开发的一个研究性原型系统，探索用 AI 技术提升写作者的写作效率和创作体验。'
-  - name: 'East.im'
-    url: 'https://east.im/'
-    img : 'https://east.im/favicon.ico'
-    description: '文章生成器，一键智能扩写和AI中文润色, 自动AI写作'
+myres:
 
 ai-chat:
-  - name: 'DeepSeek'
-    url: 'https://chat.deepseek.com/'
-    img: 'https://chat.deepseek.com/favicon.svg'
-    description: 'DeepSeek - 探索未至之境'
+  - name: 豆包
+    url: https://www.doubao.com/chat/
+    img: https://lf-flow-web-cdn.doubao.com/obj/flow-doubao/doubao/chat/favicon.png
+    description: 字节跳动旗下AI智能助手
+  - name: DeepSeek
+    url: https://chat.deepseek.com/
+    img: https://fe-static.deepseek.com/chat/favicon.svg
+    description: DeepSeek - 探索未至之境
 
-ai-all:
-  - name: '豆包'
-    url: 'https://www.doubao.com/'
-    img: 'https://lf-flow-web-cdn.doubao.com/obj/flow-doubao/doubao/web/logo-icon.png'
-    description: '字节跳动旗下AI智能助手'
-  - name: '墨墨AI'
-    url: 'https://ai.codinghou.cn/'
-    img: 'https://ai.codinghou.cn/favicon.ico'
-    description: '一站式体验/学习/使用AI'
-  - name: 'AI Tools'
-    url: 'https://abc.ufun.net/'
-    img: 'https://abc.ufun.net/favicon.ico'
-    description: 'AI Tools'
-  - name: '纳米AI'
-    url: 'https://www.n.cn/'
-    img: 'https://www.n.cn/favicon.ico'
-    description: '360旗下 纳米AI'
-  - name: '天工Agent版'
-    url: 'https://www.tiangong.cn/'
-    img: 'https://www.tiangong.cn/favicon.ico'
-    description: 'TianGong - AI办公智能体先行者'
-  
-ai:
+ai-audio:
+  - name: 悟声 AI
+    url: https://www.wusound.cn/
+    img: https://www.wusound.cn/favicon.ico
+    description: 超拟真AI语音合成与瞬时克隆平台
+  - name: TTSMaker
+    url: https://ttsmaker.cn/
+    img: https://ttsmaker.cn/favicon.ico
+    description: 在线免费文字转语音
+  - name: 音子AI
+    url: https://yinziai.com/
+    img: https://yinziai.com/favicon.ico
+    description: 免费在线！Yinzi AI人声分离器
+  - name: 音子AI
+    url: https://www2.yinziai.com/
+    img: https://www2.yinziai.com/favicon.ico
+    description: 在线免费人声分离、伴奏分离器
+  - name: LALAL.AI
+    url: https://www.lalal.ai/zh-hans/
+    img: https://www.lalal.ai/favicon.ico
+    description: 人声去除器和AI智能伴奏分离器
+
+ai-image:
+  - name: remove.bg
+    url: https://www.remove.bg/zh
+    img: https://www.remove.bg/favicon.ico
+    description: 在线抠图软件_图片去除背景
+  - name: Magic Studio
+    url: https://magicstudio.com/zh/
+    img: https://magicstudio.com/favicon.ico
+    description: 利用 AI 制作精美图像
+
+ai-data:
+  - name: ChatExcel
+    url: https://chatexcel.com/#/
+    img: https://chatexcel.com/logo.svg
+    description: AI表格处理与数据分析
+
+ai-dev:
+  - name: Zread
+    url: https://zread.ai/
+    img: https://zread.ai/favicon.ico
+    description: 专为开发者设计的AI源码解读产品
+
+ai-tools:
   - name: AI工具集
-    url: 'https://ai-bot.cn/'
-    img: 'https://ai-bot.cn/favicon.ico'
-    description: 'AI工具集 | 700+ AI工具集合官网，国内外AI工具集导航大全'
+    url: https://ai-bot.cn/
+    img: https://ai-bot.cn/wp-content/uploads/2023/04/ai-bot-baidu-logo.png
+    description: 700+ AI工具集合官网
+  - name: EAST.IM
+    url: https://east.im/zh
+    img: https://east.im/favicon.ico
+    description: 免费AI工具佼佼者
 
-myshare:
-  - name: '系统镜像分享'
-    url: 'https://cloud.aoe.top/s/g6rsv'
-    img: 'https://mod.3dmgame.com/static/upload/mod/202211/MOD6386ccf455c06.png@webp'
-    description: '感谢小莫云盘提供的文件存储及分享服务！'
-  - name: '绿色软件分享'
-    url: 'https://pan.huang1111.cn/s/XqxnGTl'
-    img: 'https://a.h1static.cn/pan/Logohuang1111.ico'
-    description: '感谢huang1111网盘提供的文件存储及分享服务！'
-  - name: '音乐资源分享'
-    url: 'https://008686.xyz/s/EVGBtQ'
-    img: 'https://008686.xyz/static/img/favicon.ico'
-    description: '感谢扒拉云盘提供的文件存储及分享服务！'
-  - name: '我的录屏备份'
-    url: 'https://008686.xyz/s/6bkdfx'
-    img: 'https://008686.xyz/static/img/favicon.ico'
-    description: '感谢扒拉云盘提供的文件存储及分享服务！'
-  - name: '我的剪辑备份'
-    url: 'https://008686.xyz/s/1RWxSN'
-    img: 'https://008686.xyz/static/img/favicon.ico'
-    description: '感谢扒拉云盘提供的文件存储及分享服务！'
-  - name: '我某次拍的风景1(技术堪忧)'
-    url: 'https://photo.baidu.com/photo/wap/albumShare/invite/jFxajRFOWW?from=webcreate'
-    img: 'https://staticsns.cdn.bcebos.com/amis/2023-2/1676342310828/favicon.ico'
-    description: '感谢一刻相册提供的照片存储及分享服务！'
-  - name: '我某次拍的风景2(技术堪忧)'
-    url: 'https://photo.baidu.com/photo/wap/albumShare/invite/jhsxVrGOJm?from=webcreate'
-    img: 'https://staticsns.cdn.bcebos.com/amis/2023-2/1676342310828/favicon.ico'
-    description: '感谢一刻相册提供的照片存储及分享服务！'
-  - name: '我某次拍的风景3(技术堪忧)'
-    url: 'https://photo.baidu.com/photo/wap/albumShare/invite/jgePIuYfka?from=webcreate'
-    img: 'https://staticsns.cdn.bcebos.com/amis/2023-2/1676342310828/favicon.ico'
-    description: '感谢一刻相册提供的照片存储及分享服务！'
-  - name: '我某次拍的风景4(技术堪忧)'
-    url: 'https://photo.baidu.com/photo/wap/albumShare/invite/OnhpQsIjoC?from=webcreate'
-    img: 'https://staticsns.cdn.bcebos.com/amis/2023-2/1676342310828/favicon.ico'
-    description: '感谢一刻相册提供的照片存储及分享服务！'
-  - name: '某四张壁纸'
-    url: 'https://photo.baidu.com/photo/wap/albumShare/invite/UKKIZXndKS?from=webcreate'
-    img: 'https://staticsns.cdn.bcebos.com/amis/2023-2/1676342310828/favicon.ico'
-    description: '感谢一刻相册提供的照片存储及分享服务！'
-  - name: '必应壁纸收藏1'
-    url: 'https://photo.baidu.com/photo/wap/albumShare/invite/MjmfzIJbNa?from=webcreate'
-    img: 'https://staticsns.cdn.bcebos.com/amis/2023-2/1676342310828/favicon.ico'
-    description: '感谢一刻相册提供的照片存储及分享服务！'
-  - name: '必应壁纸收藏2'
-    url: 'https://photo.baidu.com/photo/wap/albumShare/invite/PqsnSPfFeu?from=webcreate'
-    img: 'https://staticsns.cdn.bcebos.com/amis/2023-2/1676342310828/favicon.ico'
-    description: '感谢一刻相册提供的照片存储及分享服务！'
-  - name: 'Windows 11概念壁纸收藏'
-    url: 'https://photo.baidu.com/photo/wap/albumShare/invite/btreUoaYv?from=webcreate'
-    img: 'https://staticsns.cdn.bcebos.com/amis/2023-2/1676342310828/favicon.ico'
-    description: '感谢一刻相册提供的照片存储及分享服务！'
-  - name: 'Windows 11自带壁纸'
-    url: 'https://photo.baidu.com/photo/wap/albumShare/invite/RnfWhLYJMl?from=webcreate'
-    img: 'https://staticsns.cdn.bcebos.com/amis/2023-2/1676342310828/favicon.ico'
-    description: '感谢一刻相册提供的照片存储及分享服务！'
-  - name: 'Windows聚焦壁纸收藏'
-    url: 'https://photo.baidu.com/photo/wap/albumShare/invite/jnrYLNQYQn?from=webcreate'
-    img: 'https://staticsns.cdn.bcebos.com/amis/2023-2/1676342310828/favicon.ico'
-    description: '感谢一刻相册提供的照片存储及分享服务！'
+game-online:
+  - name: 玩街机
+    url: https://www.playfc.cn/arcades
+    img: https://www.playfc.cn/favicon.ico
+    description: 全网唯一可在线比拼分数的街机网站
+  - name: Return8090
+    url: https://www.return8090.com/
+    img: https://www.return8090.com/favicon.ico
+    description: 经典复古游戏机在线玩
+  - name: 80在线街机游戏网
+    url: https://wgame80.com/
+    img: https://wgame80.com/favicon.ico
+    description: 红白机，FC在线游戏，街机游戏
+  - name: Poki (宝玩)
+    url: https://poki.com/zh
+    img: https://a.poki-cdn.com/icons/favicon-194x194.png
+    description: 免费在线小游戏 - 马上玩！
+  - name: Y8.com
+    url: https://zh.y8.com/
+    img: https://zh.y8.com/favicon.ico
+    description: 免费线上游戏 - 立即在 Y8.com 上玩
+  - name: Yandex游戏
+    url: https://yandex.com/games/zh
+    img: https://yandex.com/games/favicon.ico
+    description: 适合各种口味的免费在线游戏
+  - name: js13kGames
+    url: https://js13kgames.com/
+    img: https://files.bananayx.qzz.io/img/logo/js13kgames_f32.png
+    description: HTML5 and JavaScript Game Development Competition
+  - name: 局部战争Local War
+    url: https://localwar.xidayun.com/
+    img: https://files.bananayx.qzz.io/img/logo/FluentGlobe24Regular.svg
+    description: 多人FPS射击页游
+  - name: Subway Surfers
+    url: https://subway-surfers.me/
+    img: https://subway-surfers.me/favicon.ico
+    description: Play Subway Surfers Online
+  - name: 恐龙快打
+    url: https://wgame80.com/game/26.html?title=%E6%81%90%E9%BE%99%E5%BF%AB%E6%89%93
+    img: https://wgame80.com/favicon.ico
+    description: 经典街机游戏恐龙快打
+  - name: Oasis 2.0
+    url: https://oasis2.decart.ai/demo
+    img: https://oasis2.decart.ai/images/oasis2-logo-small.png
+    description: AI生成的游戏世界
 
-mysite:
-  - name: 'Banana Y.X.的小站'
-    url: 'https://bananayx.github.io/'
-    img: 'https://bananayx.github.io/files/img/Banana头像.png'
-    description: '小站，大世界。'
-  - name: 'Banana Y.X.的博客'
-    url: 'https://bananayx.github.io/blog/'
-    img: 'https://bananayx.github.io/files/img/Banana头像.png'
-    description: '面朝大海，春暖花开。'
-  - name: 'Banana Y.X.网盘'
-    url: 'http://fs.frp.one:46953/'
-    img: 'https://bananayx.github.io/files/img/Banana头像.png'
-    description: '吹牛逼呢！这叫私人网盘，你会搭吗？你只能看着我，装逼！呵呵哈哈，加纳！'
-  - name: 'Banana Y.X.网盘(备用网址)'
-    url: 'http://sj.frp.one:29552/'
-    img: 'https://bananayx.github.io/files/img/Banana头像.png'
-    description: '吹牛逼呢！这叫私人网盘，你会搭吗？你只能看着我，装逼！呵呵哈哈，加纳！'
-  - name: 'Banana Y.X.的抖音'
-    url: 'https://www.douyin.com/user/MS4wLjABAAAA0y-EB2FwDesDJnUjwTTJJU7uuvcOaIHr07y0bAFh_Wk'
-    img: 'https://www.douyin.com/favicon.ico'
-    description: '抖音，记录生活，分享快乐。'
-  - name: 'Banana Y.X.的画廊(国内无法访问)'
-    url: 'https://www.flickr.com/photos/bananayx/'
-    img: 'https://bananayx.github.io/files/img/flickerfavicon.ico'
-    description: 'Flicker，管理相片的新方式'
+game-tool:
+  - name: MCNav
+    url: https://www.mcnav.net/
+    img: https://www.mcnav.net/favicon.ico
+    description: Minecraft网址导航站
+  - name: Chunkbase
+    url: https://www.chunkbase.com/apps/seed-map
+    img: https://www.chunkbase.com/favicon.ico
+    description: Minecraft种子地图查看器
+  - name: 开服侠
+    url: http://www.kaifuxia.com/
+    img: http://www.kaifuxia.com/favicon.ico
+    description: 我的世界开服侠 - 免费开服
+
+game-res:
+  - name: Koyso
+    url: https://koyso.com/
+    img: https://files.bananayx.qzz.io/img/logo/koyso.com-logo_u.ico
+    description: PC Games Free Download
+  - name: 快意库
+    url: https://kooink.com/
+    img: https://files.bananayx.qzz.io/img/logo/kooink.com-cropped-sitelogo-192x192.png
+    description: 不止是艺术
+  - name: 像素茶艺地图站
+    url: https://pixelmap.minegraph.cn/
+    img: https://pixelmap.minegraph.cn/wp-content/uploads/2024/02/cropped-image-6-192x192.png
+    description: 我的世界地图下载
+  - name: 搁浅资源网
+    url: https://mcgeqian.top/
+    img: https://mcgeqian.top/img/geqian.png
+    description: Minecraft资源分享
+  - name: open-source-games
+    url: https://github.com/bobeff/open-source-games
+    img: https://github.com/favicon.ico
+    description: A list of open source games
+
+game-tutorial:
+  - name: 中文Minecraft Wiki
+    url: https://zh.minecraft.wiki/
+    img: https://zh.minecraft.wiki/images/Favicon.ico
+    description: Minecraft教程
+
+download-system:
+  - name: WINOS
+    url: https://www.winos.me/
+    img: https://www.winos.me/favicon.ico
+    description: 前沿的精简系统下载
+  - name: HelloWindows
+    url: https://hellowindows.cn/
+    img: https://hellowindows.cn/logo-s.png
+    description: Windows系统下载
+  - name: ITELLYOU
+    url: https://next.itellyou.cn/Original/
+    img: https://next.itellyou.cn/favicon.ico
+    description: MSDN原版系统下载
+  - name: 我的MSDN
+    url: https://www.imsdn.cn/
+    img: https://www.imsdn.cn/favicon.ico
+    description: MSDN原版系统,纯净镜像下载
+  - name: MSDN, 我告诉你
+    url: https://msdn.itellyou.cn/
+    img: https://msdn.itellyou.cn/favicon.ico
+    description: 做一个安静的工具站
+  - name: UUP dump
+    url: https://www.uupdump.cn/
+    img: https://www.uupdump.cn/favicon.ico
+    description: UUP dump不忘初心中文站
+  - name: 小鱼儿yr系统
+    url: https://www.yrxitong.com/h-nd-200.html
+    img: https://www.yrxitong.com/favicon.ico
+    description: 苹果电脑MacOS系统镜像
+  - name: 蜂鸟PE
+    url: https://www.fengpe.top/
+    img: https://www.fengpe.top/favicon.ico
+    description: 小而强悍的维护系统
+
+download-software:
+  - name: 4分贝分享网
+    url: https://www.4fb.cn/
+    img: https://www.4fb.cn/favicon.ico
+    description: 软件分享网站
+  - name: 鹿角软件
+    url: https://lujiaorj.com/
+    img: https://lujiaorj.com/img/logo.svg
+    description: 专注分享实用软件
+  - name: 拜拜软件
+    url: https://www.88appp.com/
+    img: https://files.bananayx.qzz.io/img/logo/88app.com-cropped-logo-xiao-1-192x192.webp
+    description: 一个为软件而生的网站
+  - name: 8号站
+    url: https://www.ssdtop.com/
+    img: https://www.ssdtop.com/favicon.ico
+    description: 分享开源免费实用的软件
+  - name: QiuQuan's Blog
+    url: http://www.qiuquan.cc/
+    img: http://www.qiuquan.cc/favicon.ico
+    description: 精品软件分享博客
+  - name: DOS之家
+    url: http://www.doshome.com/
+    img: http://www.doshome.com/favicon.ico
+    description: 电脑安全的家
+  - name: Microsoft Store - Generation Project
+    url: https://store.rg-adguard.net/
+    img: https://files.bananayx.qzz.io/img/logo/store.rg-adguard.net-favicon.ico
+    description: Microsoft Store - Generation Project
+  - name: 千千静听
+    url: https://www.ttplayer.co/index.php
+    img: https://www.ttplayer.co/favicon.ico
+    description: 千千静听非官方网站
+  - name: 喜马拉雅UWP版
+    url: https://m.downxia.com/downinfo/383748.html
+    img: https://m.downxia.com/favicon.ico
+    description: 喜马拉雅FM微软商店版
+
+download-resource:
+  - name: Pixabay
+    url: https://pixabay.com/zh/
+    img: https://pixabay.com/favicon.ico
+    description: 免费正版高清图片素材库
+  - name: 100font
+    url: https://www.100font.com/
+    img: https://www.100font.com/view/img/favicon.ico
+    description: 免费字体下载 - 免费商用字体下载网站
+  - name: 我的世界字体包
+    url: https://www.bilibili.com/opus/650428219754807321
+    img: https://www.bilibili.com/favicon.ico
+    description: 包含中英文的我的世界字体包
+  - name: GitHub Proxy
+    url: https://gh-proxy.com/
+    img: https://gh-proxy.com/favicon.ico
+    description: GitHub 文件加速代理
+  - name: Github Proxy
+    url: https://github.akams.cn/
+    img: https://files.bananayx.qzz.io/img/logo/FluentGlobe24Regular.svg
+    description: Github Proxy 文件代理加速
+  - name: GetOneDriveDirectLink
+    url: https://mapaler.github.io/GetOneDriveDirectLink/
+    img: https://mapaler.github.io/GetOneDriveDirectLink/icon.png
+    description: 获取OneDrive直链
+  - name: SnapAny
+    url: https://snapany.com/zh
+    img: https://snapany.com/favicon.ico
+    description: 万能视频图片解析下载
+  - name: Windows 11 概念版光标
+    url: https://www.softsy.cn/post-7.html
+    img: https://www.softsy.cn/favicon.ico
+    description: Windows 11 概念版光标 V2
+  - name: Windows11手机壁纸
+    url: https://zhutix.com/mobile/windows-11-wallpapers-for-your-phone/
+    img: https://zhutix.com/favicon.ico
+    description: Windows11手机壁纸
+
+cloud:
+  - name: 小莫云盘
+    url: https://cloud.aoe.top/
+    img: https://files.bananayx.qzz.io/img/logo/FluentGlobe24Regular.svg
+  - name: 小太阳云盘
+    url: https://cncncloud.com/
+    img: https://cncncloud.com/static/img/favicon.ico
+  - name: Meow云
+    url: https://pan.miaogongzi.net/
+    img: https://img.miaogongzi.org/2024/08/23/66c87cccb009d.png
+  - name: huang1111网盘
+    url: https://pan.huang1111.cn/
+    img: https://a.h1static.cn/pan/Logohuang1111.ico
+  - name: HotPan网盘
+    url: https://pan.sysri.cn/
+    img: https://sc.sysri.cn/i/p/1/65d45b2ce9c91.ico
+  - name: 123云盘
+    url: https://www.123pan.com/
+    img: https://statics.123pan.com/static/pwa-icon-512.png
+  - name: 钛盘
+    url: https://www.tmp.link/
+    img: https://www.ttttt.link/img/ico/favicon.ico
+  - name: VIP优盘
+    url: https://www.u-p.vip/
+    img: https://web.u-p.vip/u-p/images/favicon.ico
+  - name: 城通网盘
+    url: https://www.ctfile.com/
+    img: https://www.ctfile.com/favicon/apple-icon-180x180.png
+  - name: 蓝奏云
+    url: https://pc.woozooo.com/u
+    img: https://pc.woozooo.com/favicon.ico
+  - name: 阿里云盘
+    url: https://www.alipan.com/
+    img: https://www.alipan.com/favicon.ico
+  - name: 扒拉云盘
+    url: https://008686.xyz/
+    img: https://008686.xyz/static/img/favicon.ico
+  - name: 一刻相册
+    url: https://photo.baidu.com/
+    img: https://staticsns.cdn.bcebos.com/amis/2023-2/1676342310828/favicon.ico
+    description: 百度网盘出品，无限空间云相册
+
+tools-email:
+  - name: Mail.tm
+    url: https://mail.tm/zh/
+    img: https://mail.tm/favicon.ico
+    description: 临时邮件-一次性临时电子邮件服务
+  - name: 10分钟邮箱
+    url: https://tenminutesmail.net/zh
+    img: https://tenminutesmail.net/uploads/favicon.ico
+    description: 10 分钟邮箱 - 免费临时一次性邮箱
+  - name: 临时邮箱
+    url: https://www.linshi-email.com/
+    img: https://www.linshi-email.com/favicon.ico
+    description: 临时邮箱，10分钟邮箱
+
+tools-dev:
+  - name: GitHub Proxy
+    url: https://gh-proxy.com/
+    img: https://gh-proxy.com/favicon.ico
+    description: GitHub 文件加速代理
+  - name: Github Proxy
+    url: https://github.akams.cn/
+    img: https://files.bananayx.qzz.io/img/logo/FluentGlobe24Regular.svg
+    description: Github Proxy 文件代理加速
+  - name: GetOneDriveDirectLink
+    url: https://mapaler.github.io/GetOneDriveDirectLink/
+    img: https://mapaler.github.io/GetOneDriveDirectLink/icon.png
+    description: 获取OneDrive直链
+
+tools-online:
+  - name: SnapAny
+    url: https://snapany.com/zh
+    img: https://snapany.com/favicon.ico
+    description: 万能视频图片解析下载
+  - name: remove.bg
+    url: https://www.remove.bg/zh
+    img: https://www.remove.bg/apple-touch-icon.png?v=fc0bfce6e1310f1539afec9729716721
+    description: 在线抠图软件_图片去除背景
+  - name: Magic Studio
+    url: https://magicstudio.com/zh/
+    img: https://magicstudio.com/favicon.ico
+    description: 利用 AI 制作精美图像
 
 since: 2025
 
