@@ -308,7 +308,7 @@ download-software:
     description: 精品软件分享博客
   - name: DOS之家
     url: http://www.doshome.com/
-    img: http://www.doshome.com/wp-content/uploads/2022/08/cropped-ad41264413e781d-32x32.gif
+    img: https://bananayx.github.io/files/img/logo/www.doshome.com-cropped-ad41264413e781d-32x32.gif
     description: 电脑安全的家
   - name: Microsoft Store - Generation Project
     url: https://store.rg-adguard.net/
