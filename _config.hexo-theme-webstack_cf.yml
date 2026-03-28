@@ -220,7 +220,7 @@ game-tool:
     description: Minecraft种子地图查看器
   - name: 开服侠
     url: http://www.kaifuxia.com/
-    img: http://www.kaifuxia.com/favicon.ico
+    img: https://files.bananayx.qzz.io/img/logo/www.kaifuxia.com-favicon.ico
     description: 我的世界开服侠 - 免费开服
 
 game-res:
@@ -308,7 +308,7 @@ download-software:
     description: 精品软件分享博客
   - name: DOS之家
     url: http://www.doshome.com/
-    img: http://www.doshome.com/favicon.ico
+    img: http://www.doshome.com/wp-content/uploads/2022/08/cropped-ad41264413e781d-32x32.gif
     description: 电脑安全的家
   - name: Microsoft Store - Generation Project
     url: https://store.rg-adguard.net/
