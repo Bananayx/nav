@@ -380,7 +380,7 @@ cloud:
   - name: 123云盘
     url: https://www.123pan.com/
     img: https://statics.123pan.com/static/pwa-icon-512.png
-  - name: 钛盘
+  - name: 钛盘(似乎已跑路)
     url: https://www.tmp.link/
     img: https://www.ttttt.link/img/ico/favicon.ico
   - name: VIP优盘
