@@ -395,7 +395,7 @@ cloud:
   - name: 阿里云盘
     url: https://www.alipan.com/
     img: https://www.alipan.com/favicon.ico
-  - name: 扒拉云盘
+  - name: 扒拉云盘(似乎已跑路)
     url: https://008686.xyz/
     img: https://008686.xyz/static/img/favicon.ico
   - name: 一刻相册
