@@ -233,8 +233,8 @@ game-res:
     img: https://bananayx.github.io/files/img/logo/kooink.com-cropped-sitelogo-192x192.png
     description: 不止是艺术
   - name: 像素茶艺地图站
-    url: https://pixelmap.minegraph.cn/
-    img: https://pixelmap.minegraph.cn/wp-content/uploads/2024/02/cropped-image-6-192x192.png
+    url: https://goto.pixelmap.cc/
+    img: https://goto.pixelmap.cc/favicon.png
     description: 我的世界地图下载
   - name: 搁浅资源网
     url: https://mcgeqian.top/
@@ -258,10 +258,11 @@ download-system:
     description: 前沿的精简系统下载
   - name: HelloWindows
     url: https://hellowindows.cn/
-    img: https://hellowindows.cn/logo-s.png
+    img: https://hellowindows.cn/wp-content/uploads/attachment/2026/cropped-20260412153241_69dbbb19bda61-32x32.png
     description: Windows系统下载
   - name: ITELLYOU
     url: https://next.itellyou.cn/Original/
+    img: https://next.itellyou.cn/favicon.ico
     img: https://next.itellyou.cn/favicon.ico
     description: MSDN原版系统下载
   - name: 我的MSDN
@@ -314,7 +315,7 @@ download-software:
     url: https://store.rg-adguard.net/
     img: https://bananayx.github.io/files/img/logo/store.rg-adguard.net-favicon.ico
     description: Microsoft Store - Generation Project
-  - name: 千千静听
+  - name: 千千静听(似乎已跑路)
     url: https://www.ttplayer.co/index.php
     img: https://www.ttplayer.co/favicon.ico
     description: 千千静听非官方网站
