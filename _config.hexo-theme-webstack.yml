@@ -263,7 +263,6 @@ download-system:
   - name: ITELLYOU
     url: https://next.itellyou.cn/Original/
     img: https://next.itellyou.cn/favicon.ico
-    img: https://next.itellyou.cn/favicon.ico
     description: MSDN原版系统下载
   - name: 我的MSDN
     url: https://www.imsdn.cn/
