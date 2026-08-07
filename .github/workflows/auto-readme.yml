@@ -1,0 +1,37 @@
+name: 自动生成 README
+
+on:
+  push:
+    branches: [main, master]
+    paths:
+      - '_config.hexo-theme-webstack.yml'
+      - '.github/workflows/auto-readme.yml'
+      - 'scripts/generate-readme.mjs'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: 安装 js-yaml
+        run: npm install js-yaml --no-save --package-lock=false
+
+      - name: 生成 README.md
+        run: node scripts/generate-readme.mjs
+
+      - name: 提交并推送
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git add README.md
+          git diff --cached --quiet || git commit -m 'docs: 自动更新 README.md'
+          git push
