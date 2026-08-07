@@ -1,0 +1,28 @@
+name: 构建并部署
+on: push
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        include:
+          - config: ''
+            branch: gh-pages
+          - config: '_config_cf.yml'
+            branch: cf-pages
+    steps:
+      - uses: actions/checkout@v4
+        with: { submodules: true }
+      - uses: actions/setup-node@v4
+        with: { node-version: '24.19.0' }
+      - run: npm install && npm install -g hexo-cli
+      - run: hexo clean
+      - run: hexo generate ${{ matrix.config && format('--config {0}', matrix.config) || '' }}
+      - run: |
+          cd public
+          git init
+          git config user.name 'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git add -A
+          git commit -m "由GitHub Actions自动部署"
+          git push -f https://x-access-token:${{ secrets.FOR_NAV_DEPLOY }}@github.com/Bananayx/nav.git HEAD:${{ matrix.branch }}
