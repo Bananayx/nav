@@ -1,10 +1,10 @@
-favicon: https://files.bananayx.qzz.io/img/Banana头像.png
-banner: 'https://files.bananayx.qzz.io/img/Banana Y.X.导航白字小尺寸.png'
+favicon: https://img.byxpan.qzz.io/file/1786713408316_Banana头像.png
+banner: 'https://img.byxpan.qzz.io/file/1786713700830_Banana_Y.X.导航白字小尺寸.png'
 
 logo:
-  expanded: 'https://files.bananayx.qzz.io/img/Banana Y.X.导航白字小尺寸.png'
-  collapsed: https://files.bananayx.qzz.io/img/Banana头像.png
-  dark: 'https://files.bananayx.qzz.io/img/Banana Y.X.导航黑字小尺寸.png'
+  expanded: 'https://img.byxpan.qzz.io/file/1786713700830_Banana_Y.X.导航白字小尺寸.png'
+  collapsed: https://img.byxpan.qzz.io/file/1786713408316_Banana头像.png
+  dark: 'https://img.byxpan.qzz.io/file/1786713693579_Banana_Y.X.导航黑字小尺寸.png'
 
 flag:
   - name: Chinese
@@ -81,20 +81,28 @@ menu:
 
 aboutme:
   - name: Banana Y.X.的小站
-    url: https://bananayx.qzz.io/
-    img: https://files.bananayx.qzz.io/img/Banana头像.png
+    url: https://bananayx.github.io/
+    img: https://img.byxpan.qzz.io/file/1786713408316_Banana头像.png
     description: 小站，大世界。
+  - name: 每日AI新闻
+    url: https://bananayx.gtihub.io/daily-ai-news/
+    img: https://img.byxpan.qzz.io/file/1786713408316_Banana头像.png
+    description: 一个由AI撰写的每日AI晚报。
   - name: Banana Y.X.网盘
-    url: https://byxpan.qzz.io
-    img: https://files.bananayx.qzz.io/img/Banana头像.png
+    url: https://bananayx.github.io/pan
+    img: https://img.byxpan.qzz.io/file/1786713408316_Banana头像.png
     description: 私人云存储，安全稳定高速。
+  - name: 短链接
+    url: https://ccoc.ccccocccc.cc/c
+    img: https://img.byxpan.qzz.io/file/1786713408316_Banana头像.png
+    description: 将冗长的链接转换为短链接。
   - name: 肿哥音乐
-    url: https://music.bananayx.qzz.io/
-    img: https://files.bananayx.qzz.io/img/Banana头像.png
+    url: https://bananayx.github.io/Solara-fork
+    img: https://img.byxpan.qzz.io/file/1786713408316_Banana头像.png
     description: 肿哥音乐
   - name: Banana Y.X.的博客
-    url: https://blog.bananayx.qzz.io/
-    img: https://files.bananayx.qzz.io/img/Banana头像.png
+    url: https://bananayx.github.io/blog
+    img: https://img.byxpan.qzz.io/file/1786713408316_Banana头像.png
     description: 记录开发，分享知识。
 
 myres:
