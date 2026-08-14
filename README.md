@@ -3,7 +3,9 @@
 ## 有关Banana Y.X.
 
 - [Banana Y.X.的小站](https://bananayx.github.io/) - 小站，大世界。
+- [每日AI新闻](https://bananayx.gtihub.io/daily-ai-news/) - 一个由AI撰写的每日AI晚报。
 - [Banana Y.X.网盘](https://bananayx.github.io/pan) - 私人云存储，安全稳定高速。
+- [短链接](https://ccoc.ccccocccc.cc/c) - 将冗长的链接转换为短链接。
 - [肿哥音乐](https://bananayx.github.io/Solara-fork) - 肿哥音乐
 - [Banana Y.X.的博客](https://bananayx.github.io/blog) - 记录开发，分享知识。
 
